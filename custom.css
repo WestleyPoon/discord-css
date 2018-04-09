@@ -1,0 +1,172 @@
+/* channels column */
+.channels-3g2vYe {
+    width: 160px
+}
+
+/* channels column - channels area*/
+.content-2mSKOj {
+    height: 26px
+}
+
+.wrapper-fDmxzK {
+    height: 30px
+}
+
+.name-2SL4ev {
+    font-size: 12px
+}
+
+.nameDefault-1I0lx8, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q {
+    font-size: 12px;
+}
+
+/* channels column - voice chat area */
+.inner-ptMwR- .rtc-connection-status .ping {
+    display: none
+}
+
+.inner-ptMwR- .channel-3YGMy1 {
+    display: none
+}
+
+/* channels column - icon area */
+.accountDetails-15i-_e .username {
+    max-width: 0px
+}
+
+.accountDetails-15i-_e .discriminator {
+    display: none
+}
+
+/* top bar */
+.header-1tSljs {
+    height: 36px;
+    padding: 0px 16px 0px 16px
+}
+
+.title-qAcLxz, .titleCall-3X0yGQ {
+    height: 36px
+}
+
+/* top bar - search bar */
+.search .search-bar {
+    width: 288px
+}
+
+/* chat column - chat */
+.chat .new-messages-bar {
+    left: 8px
+}
+
+.message-group .comment .markup {
+    line-height: 1.0em;
+    font-size: 0.9375rem
+}
+
+.message-group {
+    padding: 10px 0px;
+    margin-left: -7px
+}
+
+.message-group .avatar-large {
+    margin-top: -13px;
+    margin-right: 4px
+}
+
+/*chat column - emojis */
+.emoji {
+    min-width: 56px;
+    min-height: 56px
+}
+
+.reaction .emoji {
+    min-width: 36px;
+    min-height: 36px
+}
+
+/* chat column - typing area */
+.chat form {
+    margin: 0px 4px
+}
+
+.channelTextArea-os01xC {
+    margin: 5px 0 24px
+}
+
+.attachButton-Di6YUh {
+    display: none
+}
+
+.theme-dark .attachButtonDivider-3tknGJ {
+    display: none
+}
+
+.textArea-20yzAH {
+    font-size:.9rem
+}
+
+.textAreaEnabled-2vOfh8 {
+    padding: 0px 38px 0px 10px
+}
+
+.emojiButton-38mF6t {
+    top: .5px
+}
+
+.typing-3eiiL_ {
+    font-size: 10px;
+    height: 23px;
+}
+
+.typing-3eiiL_ .ellipsis--nKTEd {
+    margin-top: -1px;
+}
+
+
+/* member list */
+.membersWrap-3wRngy {
+    min-width: 0px
+}
+
+.members-1bid1J {
+    max-width: 180px
+}
+
+.username-MwOsla {
+    font-size: 12px
+}
+
+.old-h2 {
+    margin-bottom: 1px;
+}
+
+/* plugins */
+.bf-toolbar.bf-left .bf-arrow {
+    opacity: 0.0;
+}
+
+.avatarSpeaking-3teDH6, .avatarDefault-3jtQoc, .avatarContainer-303pFz {
+    border-color: transparent;
+	box-shadow: none;
+	z-index: 10;
+}
+
+.avatarSpeaking-3teDH6::before {
+    content: "";
+	position: absolute;
+	left: -5px;
+	width: 4px;
+	height: 20px;
+	background: #43b581;
+}
+
+.avatarSpeaking-3teDH6::after {
+    content: "";
+	position: absolute;
+	height: 20px;
+	left: -5px;
+	width: 100%;
+	background: linear-gradient(to right, #43b581 0%, transparent 35%);
+	opacity: 0.5;
+	z-index: -1;
+}
