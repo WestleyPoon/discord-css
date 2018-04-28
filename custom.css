@@ -44,8 +44,8 @@
 }
 
 .guild.unread::before {
-    margin-left: 2px;
-    transform: scale(1,1.75);
+    margin-left: 1px;
+    transform: scale(1,1.25);
 }
 
 
