@@ -23,11 +23,11 @@
 
 /* ---- channel bar ------------------------------------------------------ */
 .guilds-wrapper {
-    width: 63px;
+    width: 60px;
 }
 
 .guilds-wrapper .guilds .friends-online, .guild, .guild-separator {
-    margin-left: -4px;
+    margin-left: -5px;
     margin-bottom: -6px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .guild.unread::before {
-    margin-left: 1px;
+    margin-left: 2px;
     transform: scale(1,1.25);
 }
 
