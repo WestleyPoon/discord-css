@@ -1,3 +1,50 @@
+/* ---- title bar -------------------------------------------------------- */
+.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 {
+    margin-bottom: -4px;
+}
+
+.typeWindows-1za-n7, .titleBar-AC4pGV {
+    height: 0px;
+}
+
+.wordmark-2iDDfm {
+    display: none;
+}
+
+.winButtonClose-1HsbF-, .winButtonMinMax-PBQ2gm {
+    margin-top: 8px;
+}
+
+.winButtonClose-1HsbF- {
+    margin-right: 6px;
+}
+
+
+
+/* ---- top bar ---------------------------------------------------------- */
+/* top bar - above channels column */
+.header-2o-2hj {
+    height: 36px;
+    padding: 0px 16px 0px 16px
+}
+
+/* top bar - above chat area */
+.title-3qD0b-, .titleCall-_b9o8P {
+    height: 36px;
+    -webkit-app-region: drag;
+}
+
+/* top bar - search bar */
+.search .search-bar {
+    width: 288px
+}
+
+.theme-dark > .noWrap-3jynv6 {
+    margin-right: 82px;
+}
+
+
+
 /* ---- channels column -------------------------------------------------- */
 .channels-Ie2l6A {
     width: 160px
@@ -22,28 +69,28 @@
 
 .avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
     border-color: transparent;
-	box-shadow: none;
-	z-index: 10;
+    box-shadow: none;
+    z-index: 10;
 }
 
 .avatarSpeaking-1wJCNq::before {
     content: "";
-	position: absolute;
-	left: -5px;
-	width: 4px;
-	height: 20px;
-	background: #43b581;
+    position: absolute;
+    left: -5px;
+    width: 4px;
+    height: 20px;
+    background: #43b581;
 }
 
 .avatarSpeaking-1wJCNq::after {
     content: "";
-	position: absolute;
-	height: 20px;
-	left: -5px;
-	width: 100%;
-	background: linear-gradient(to right, #43b581 0%, transparent 35%);
-	opacity: 0.5;
-	z-index: -1;
+    position: absolute;
+    height: 20px;
+    left: -5px;
+    width: 100%;
+    background: linear-gradient(to right, #43b581 0%, transparent 35%);
+    opacity: 0.5;
+    z-index: -1;
 }
 
 /* channels column - voice chat bar */
@@ -64,23 +111,6 @@
     display: none
 }
 
-
-/* ---- top bar ---------------------------------------------------------- */
-/* top bar - above channels column */
-.header-2o-2hj {
-    height: 36px;
-    padding: 0px 16px 0px 16px
-}
-
-/* top bar - above chat area */
-.title-3qD0b-, .titleCall-_b9o8P {
-    height: 36px
-}
-
-/* top bar - search bar */
-.search .search-bar {
-    width: 288px
-}
 
 
 /* ---- chat column ------------------------------------------------------ */
@@ -154,6 +184,7 @@
 }
 
 
+
 /* ---- member list ------------------------------------------------------ */
 .membersWrap-2h-GB4 {
     min-width: 0px
@@ -165,10 +196,11 @@
 }
 
 .membersGroup-v9BXpm {
-    margin-top: 0px;
-    margin-left: -6px;
-    text-transform: capitalize;
+    margin-top: 4px;
+    margin-left: -4px;
+    font-size: 13px;
     letter-spacing: .5px;
+    text-transform: capitalize
 }
 
 .member-3W1lQa {
@@ -178,6 +210,7 @@
 .username-1cB_5E {
     font-size: 12px
 }
+
 
 
 /* ---- plugins ---------------------------------------------------------- */
