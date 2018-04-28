@@ -21,6 +21,35 @@
 
 
 
+/* ---- channel bar ------------------------------------------------------ */
+.guilds-wrapper {
+    width: 63px;
+}
+
+.guilds-wrapper .guilds .friends-online, .guild, .guild-separator {
+    margin-left: -4px;
+    margin-bottom: -6px;
+}
+
+.guild {
+    transform: scale(.9)
+}
+
+.guild.selected {
+    transform: none;
+}
+
+.guild.selected::before {
+    display: none;
+}
+
+.guild.unread::before {
+    margin-left: 2px;
+    transform: scale(1,1.75);
+}
+
+
+
 /* ---- top bar ---------------------------------------------------------- */
 /* top bar - above channels column */
 .header-2o-2hj {
@@ -41,6 +70,21 @@
 
 .theme-dark > .noWrap-3jynv6 {
     margin-right: 82px;
+}
+
+/* PM top bar - search bar */
+.private-channels .search-bar {
+    margin-left: -4px;
+    margin-top: -12px;
+}
+
+.private-channels .search-bar .search-bar-inner {
+    margin-top: 12px;
+    padding: 0px;
+}
+
+.theme-dark .headerBar-UHpsPw {
+    height: 36px;
 }
 
 
