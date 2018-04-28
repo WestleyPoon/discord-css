@@ -1,50 +1,79 @@
-/* channels column */
-.channels-3g2vYe {
+/* ---- channels column -------------------------------------------------- */
+.channels-Ie2l6A {
     width: 160px
 }
 
 /* channels column - channels area*/
-.content-2mSKOj {
+.content-20Aix8 {
     height: 26px
 }
 
-.wrapper-fDmxzK {
+.wrapper-KpKNwI {
     height: 30px
 }
 
-.name-2SL4ev {
+.name-3M0b8v {
     font-size: 12px
 }
 
-.nameDefault-1I0lx8, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q {
+.nameDefault-2s3kbY, .nameHovered-21k1eo, .nameSpeaking-3UhoEZ {
     font-size: 12px;
 }
 
-/* channels column - voice chat area */
-.inner-ptMwR- .rtc-connection-status .ping {
+.avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
+    border-color: transparent;
+	box-shadow: none;
+	z-index: 10;
+}
+
+.avatarSpeaking-1wJCNq::before {
+    content: "";
+	position: absolute;
+	left: -5px;
+	width: 4px;
+	height: 20px;
+	background: #43b581;
+}
+
+.avatarSpeaking-1wJCNq::after {
+    content: "";
+	position: absolute;
+	height: 20px;
+	left: -5px;
+	width: 100%;
+	background: linear-gradient(to right, #43b581 0%, transparent 35%);
+	opacity: 0.5;
+	z-index: -1;
+}
+
+/* channels column - voice chat bar */
+.inner-btChU7 .rtc-connection-status .ping {
     display: none
 }
 
-.inner-ptMwR- .channel-3YGMy1 {
+.inner-btChU7 .channel-SEolQq {
     display: none
 }
 
-/* channels column - icon area */
-.accountDetails-15i-_e .username {
+/* channels column - user info area */
+.accountDetails-3k9g4n .username {
     max-width: 0px
 }
 
-.accountDetails-15i-_e .discriminator {
+.accountDetails-3k9g4n .discriminator {
     display: none
 }
 
-/* top bar */
-.header-1tSljs {
+
+/* ---- top bar ---------------------------------------------------------- */
+/* top bar - above channels column */
+.header-2o-2hj {
     height: 36px;
     padding: 0px 16px 0px 16px
 }
 
-.title-qAcLxz, .titleCall-3X0yGQ {
+/* top bar - above chat area */
+.title-3qD0b-, .titleCall-_b9o8P {
     height: 36px
 }
 
@@ -53,6 +82,8 @@
     width: 288px
 }
 
+
+/* ---- chat column ------------------------------------------------------ */
 /* chat column - chat */
 .chat .new-messages-bar {
     left: 8px
@@ -89,89 +120,67 @@
     margin: 0px 4px
 }
 
-.channelTextArea-os01xC {
+.channelTextArea-1LDbYG {
     margin: 5px 0 24px
 }
 
-.attachButton-Di6YUh {
+.attachButton-1UjEWA {
     display: none
 }
 
-.theme-dark .attachButtonDivider-3tknGJ {
+.attachButtonDivider-3Glu60 {
     display: none
 }
 
-.textArea-20yzAH {
-    font-size:.9rem
+.textArea-2Spzkt {
+    font-size: .9rem
 }
 
-.textAreaEnabled-2vOfh8 {
+.textAreaEnabled-3vQ5WZ {
     padding: 0px 38px 0px 10px
 }
 
-.emojiButton-38mF6t {
+.emojiButton-2wRZts {
     top: .5px
 }
 
-.typing-3eiiL_ {
+.typing-2GQL18 {
     font-size: 10px;
     height: 23px;
 }
 
-.typing-3eiiL_ .ellipsis--nKTEd {
+.typing-2GQL18 .ellipsis-19qdx6 {
     margin-top: -1px;
 }
 
 
-/* member list */
-.membersWrap-3wRngy {
+/* ---- member list ------------------------------------------------------ */
+.membersWrap-2h-GB4 {
     min-width: 0px
 }
 
-.members-1bid1J {
-    max-width: 180px
+.members-1998pB {
+    max-width: 180px;
+    margin-top: -10px;
 }
 
-.membersGroup-3_dP5E {
+.membersGroup-v9BXpm {
+    margin-top: 0px;
     margin-left: -6px;
+    text-transform: capitalize;
+    letter-spacing: .5px;
 }
 
-.member-2FrNV0 {
-    margin-left: 0px;
+.member-3W1lQa {
+    margin-left: 4px;
 }
 
-.username-MwOsla {
+.username-1cB_5E {
     font-size: 12px
 }
 
 
-/* plugins */
+/* ---- plugins ---------------------------------------------------------- */
 .bf-toolbar.bf-left .bf-arrow {
     opacity: 0.0;
-}
-
-.avatarSpeaking-3teDH6, .avatarDefault-3jtQoc, .avatarContainer-303pFz {
-    border-color: transparent;
-	box-shadow: none;
-	z-index: 10;
-}
-
-.avatarSpeaking-3teDH6::before {
-    content: "";
-	position: absolute;
-	left: -5px;
-	width: 4px;
-	height: 20px;
-	background: #43b581;
-}
-
-.avatarSpeaking-3teDH6::after {
-    content: "";
-	position: absolute;
-	height: 20px;
-	left: -5px;
-	width: 100%;
-	background: linear-gradient(to right, #43b581 0%, transparent 35%);
-	opacity: 0.5;
-	z-index: -1;
 }
