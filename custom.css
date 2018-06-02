@@ -23,16 +23,11 @@
 
 /* ---- channel bar ------------------------------------------------------ */
 .guilds-wrapper {
-    width: 63px;
-}
-
-.typeMacOS-3EmCyP {
-    margin-left: -3px;
-    margin-top: 7px;
+    width: 60px;
 }
 
 .guilds-wrapper .guilds .friends-online, .guild, .guild-separator {
-    margin-left: -4px;
+    margin-left: -5px;
     margin-bottom: -6px;
 }
 
@@ -49,7 +44,7 @@
 }
 
 .guild.unread::before {
-    margin-left: 1px;
+    margin-left: 2px;
     transform: scale(1,1.25);
 }
 
@@ -73,9 +68,9 @@
     width: 288px
 }
 
-/*.theme-dark > .noWrap-3jynv6 {
+.theme-dark > .noWrap-3jynv6 {
     margin-right: 82px;
-}*/
+}
 
 /* PM top bar - search bar */
 .private-channels .search-bar {
@@ -118,28 +113,28 @@
 
 .avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
     border-color: transparent;
-    box-shadow: none;
-    z-index: 10;
+	box-shadow: none;
+	z-index: 10;
 }
 
 .avatarSpeaking-1wJCNq::before {
     content: "";
-    position: absolute;
-    left: -5px;
-    width: 4px;
-    height: 20px;
-    background: #43b581;
+	position: absolute;
+	left: -5px;
+	width: 4px;
+	height: 20px;
+	background: #43b581;
 }
 
 .avatarSpeaking-1wJCNq::after {
     content: "";
-    position: absolute;
-    height: 20px;
-    left: -5px;
-    width: 100%;
-    background: linear-gradient(to right, #43b581 0%, transparent 35%);
-    opacity: 0.5;
-    z-index: -1;
+	position: absolute;
+	height: 20px;
+	left: -5px;
+	width: 100%;
+	background: linear-gradient(to right, #43b581 0%, transparent 35%);
+	opacity: 0.5;
+	z-index: -1;
 }
 
 /* channels column - voice chat bar */
@@ -196,11 +191,22 @@
 
 /* chat column - typing area */
 .chat form {
-    margin: 0px 4px
+    margin: 0px 4px;
 }
 
-.channelTextArea-1LDbYG {
-    margin: 0px 0px 4px
+.channelTextArea-rNsIhG {
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.textArea-2Spzkt {
+    font-size: .9rem;
+    margin-left: 10px;
+    padding: 2px 38px 2px 0;
+}
+
+.inner-zqa7da {
+    border-radius: 5px;
 }
 
 .attachButton-1UjEWA {
@@ -211,22 +217,21 @@
     display: none
 }
 
-.textArea-2Spzkt {
-    font-size: .9rem;
-    margin-left: 10px;
-}
-
-.textAreaEnabled-3vQ5WZ {
-    padding: 0px 38px 0px 10px
+.emojiButton-3uL3Aw {
+    height: 5px;
 }
 
 .typing-2GQL18 {
     font-size: 10px;
-    height: 23px;
+    height: 18px;
+}
+
+.typing-2GQL18 .text-1y-e8- {
+    line-height: 18px;
 }
 
 .typing-2GQL18 .ellipsis-19qdx6 {
-    margin-top: -1px;
+    margin-top: -2px;
 }
 
 
@@ -251,6 +256,10 @@
 
 .member-3W1lQa {
     margin-left: 4px;
+}
+
+.memberInner-2CPc3V {
+    margin-left: -4px;
 }
 
 .username-1cB_5E {
