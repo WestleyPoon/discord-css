@@ -19,6 +19,10 @@
     margin-right: 6px;
 }
 
+.typeMacOS-3EmCyP {
+    margin-left: -4px;
+    margin-top: 7px;
+}
 
 
 /* ---- channel bar ------------------------------------------------------ */
@@ -68,6 +72,7 @@
     width: 288px
 }
 
+/* WIN only */
 .theme-dark > .noWrap-3jynv6 {
     margin-right: 82px;
 }
