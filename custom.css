@@ -168,19 +168,32 @@
     left: 8px
 }
 
-.message-group .comment .markup {
-    line-height: 1.0em;
-    font-size: 0.9375rem
+
+.messages > .containerCozy-jafyvG {
+    padding-top: 10px;
+    padding-bottom: 0;
 }
 
-.message-group {
-    padding: 10px 0px;
-    margin-left: -7px
+.messages .containerCozy-jafyvG .messageCozy-2JPAPA .headerCozy-2N9HOL .wrapper-2F3Zv8 {
+    margin-left: -4px;
+    margin-right: 4px;
 }
 
-.message-group .avatar-large {
-    margin-top: -8px;
-    margin-right: 4px
+.messages .containerCozy-jafyvG .messageCozy-2JPAPA .headerCozy-2N9HOL .wrapper-2F3Zv8 > .image-33JSyf {
+    border-radius: 50%;
+}
+
+.messages .containerCozy-jafyvG .messageCozy-2JPAPA .contentCozy-3XX413 {
+    margin-left: 40px;
+}
+
+.messages .containerCozy-jafyvG .dividerEnabled-2TTlcf {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.chat .divider.divider-red {
+    margin-top: 80px;
 }
 
 /*chat column - emojis */
