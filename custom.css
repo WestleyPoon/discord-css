@@ -10,6 +10,9 @@
 .wordmark-2iDDfm {
     display: none;
 }
+.titleText-3X-zRE {
+    font-size: 15px;
+}
 
 .winButtonClose-1HsbF-, .winButtonMinMax-PBQ2gm {
     margin-top: 8px;
@@ -26,30 +29,26 @@
 
 
 /* ---- channel bar ------------------------------------------------------ */
-.guilds-wrapper {
-    width: 60px;
+.guildsWrapper-5TJh6A {
+    width: 50px;
 }
 
-.guilds-wrapper .guilds .friends-online, .guild, .guild-separator {
-    margin-left: -5px;
-    margin-bottom: -6px;
+.guild-1EfMGQ {
+    margin-left: -10px;
+    margin-bottom: -15px;
 }
 
-.guild {
-    transform: scale(.9)
+.friendsOnline-_wi_fM, .guildSeparator-1X4GQ1 {
+    margin-left: -10px;
+    margin-bottom: 5px;
 }
 
-.guild.selected {
-    transform: none;
+.guild-1EfMGQ {
+    transform: scale(.75)
 }
 
-.guild.selected::before {
-    display: none;
-}
-
-.guild.unread::before {
+.guild-1EfMGQ.unread-qLkInr:before {
     margin-left: 2px;
-    transform: scale(1,1.25);
 }
 
 
@@ -61,6 +60,10 @@
     padding: 0px 16px 0px 16px
 }
 
+.name-3YKhmS {
+    font-size: 13px;
+}
+
 /* top bar - above chat area */
 .title-3qD0b-, .titleCall-_b9o8P {
     height: 36px;
@@ -68,8 +71,8 @@
 }
 
 /* top bar - search bar */
-.search .search-bar {
-    width: 288px
+.search .search-bar, .search.focused .searchBar-2_Yu-C, .search.open .searchBar-2_Yu-C, .search.popout-open .searchBar-2_Yu-C {
+    width: 288px;
 }
 
 /* WIN only */
@@ -79,13 +82,14 @@
 
 /* PM top bar - search bar */
 .private-channels .search-bar {
-    margin-left: -4px;
+    margin-left: -14px;
     margin-top: -12px;
 }
 
-.private-channels .search-bar .search-bar-inner {
+.private-channels .searchBarInner-1_Tg2R {
     margin-top: 12px;
     padding: 0px;
+    transform: scale(.9);
 }
 
 .theme-dark .headerBar-UHpsPw {
@@ -168,33 +172,35 @@
     left: 8px
 }
 
-.messages .containerCozy-jafyvG {
-    padding-top: 10px;
-    padding-bottom: 8px;
-}
-
 .messages .containerCozy-jafyvG .messageCozy-2JPAPA .headerCozy-2N9HOL .wrapper-2F3Zv8 {
     margin-left: -4px;
     margin-right: 4px;
-    margin-bottom: 12px;
-}
-
-.messages .containerCozy-jafyvG .messageCozy-2JPAPA .headerCozy-2N9HOL .wrapper-2F3Zv8
-.image-33JSyf {
-    border-radius: 50%;
 }
 
 .messages .containerCozy-jafyvG .messageCozy-2JPAPA .contentCozy-3XX413 {
     margin-left: 40px;
 }
 
-.messages .containerCozy-jafyvG .dividerEnabled-2TTlcf {
-    margin-top: 8px;
-    margin-bottom: -8px;
+.messages .containerCozy-jafyvG .divider-32i8lo {
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
-.chat .divider.divider-red {
-    margin-top: 0px;
+.messages .containerCozy-jafyvG {
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.divider .da-divider {
+    padding-top: 10px;
+}
+
+.messages .containerCozy-jafyvG:last-child {
+    margin-bottom: 8px;
+}
+
+.avatar-17mtNa {
+    margin-bottom: 10px;
 }
 
 /*chat column - emojis */
