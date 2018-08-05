@@ -10,22 +10,35 @@
 .wordmark-2iDDfm {
     display: none;
 }
+
+.theme-dark > .noWrap-3jynv6 {
+    margin-right: 0 !important;
+    padding-right: 82px;
+}
+
 .titleText-3X-zRE {
     font-size: 15px;
 }
 
+.iconMargin-2YXk4F:last-child {
+    margin-right: 10px;
+}
+
 .winButtonClose-1HsbF-, .winButtonMinMax-PBQ2gm {
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .winButtonClose-1HsbF- {
     margin-right: 6px;
+    margin-bottom: 8px;
 }
 
 .typeMacOS-3EmCyP {
     margin-left: -4px;
     margin-top: 7px;
 }
+
 
 
 /* ---- channel bar ------------------------------------------------------ */
@@ -168,39 +181,24 @@
 
 /* ---- chat column ------------------------------------------------------ */
 /* chat column - chat */
-.chat .new-messages-bar {
-    left: 8px
+.newMessagesBar-mujexs {
+    left: 9px
 }
 
-.messages .containerCozy-jafyvG .messageCozy-2JPAPA .headerCozy-2N9HOL .wrapper-2F3Zv8 {
-    margin-left: -4px;
-    margin-right: 4px;
-}
-
-.messages .containerCozy-jafyvG .messageCozy-2JPAPA .contentCozy-3XX413 {
-    margin-left: 40px;
-}
-
-.messages .containerCozy-jafyvG .divider-32i8lo {
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.messages .containerCozy-jafyvG {
+.messages-3amgkR .containerCozy-jafyvG {
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.messages-3amgkR .avatar-17mtNa {
     margin-bottom: 0px;
+    margin-left: -6px;
+    margin-right: 5px;
+    margin-top: -14px;
 }
 
-.divider .da-divider {
-    padding-top: 10px;
-}
-
-.messages .containerCozy-jafyvG:last-child {
-    margin-bottom: 8px;
-}
-
-.avatar-17mtNa {
-    margin-bottom: 10px;
+.messages-3amgkR .contentCozy-3XX413 {
+    margin-left: 39px;
 }
 
 /*chat column - emojis */
@@ -215,51 +213,41 @@
 }
 
 /* chat column - typing area */
-.chat form {
-    margin: 0px 4px;
+.chat-3bRxxu form {
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
-.channelTextArea-rNsIhG {
-    margin-top: 4px;
-    margin-bottom: 20px;
+.channelTextArea-1LDbYG {
+    padding-top: 2px;
+    margin-bottom: 21px;
+}
+
+.attachButton-1UjEWA, .attachButtonDivider-3Glu60 {
+    display: none;
 }
 
 .textArea-2Spzkt {
-    font-size: .9rem;
-    margin-left: 10px;
-    padding: 2px 38px 2px 0;
-}
-
-.inner-zqa7da {
-    border-radius: 5px;
-}
-
-.attachButton-1UjEWA {
-    display: none
-}
-
-.attachButtonDivider-3Glu60 {
-    display: none
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 30px;
+    padding-left: 7px;
 }
 
 .emojiButton-2wRZts {
-    top: 3px;
+    right: 6px;
+    top: 4px;
 }
 
 .typing-2GQL18 {
-    font-size: 10px;
-    height: 18px;
+    font-size: 11px;
+    line-height: 20px;
+    height: 20px;
 }
 
-.typing-2GQL18 .text-1y-e8- {
-    line-height: 18px;
+.ellipsis-19qdx6 {
+    height: 26px;
 }
-
-.typing-2GQL18 .ellipsis-19qdx6 {
-    margin-top: -2px;
-}
-
-
 
 /* ---- member list ------------------------------------------------------ */
 .membersWrap-2h-GB4 {
