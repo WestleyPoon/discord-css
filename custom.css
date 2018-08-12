@@ -99,14 +99,11 @@
     margin-top: -12px;
 }
 
-.private-channels .searchBarInner-1_Tg2R {
+.private-channels .search-bar-inner {
     margin-top: 12px;
+    margin-left: 10px;
     padding: 0px;
-    transform: scale(.9);
-}
-
-.theme-dark .headerBar-UHpsPw {
-    height: 36px;
+    transform: scale(1, .90);
 }
 
 
