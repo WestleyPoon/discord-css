@@ -146,28 +146,28 @@
 
 .avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
     border-color: transparent;
-	box-shadow: none;
-	z-index: 10;
+    box-shadow: none;
+    z-index: 10;
 }
 
 .avatarSpeaking-1wJCNq::before {
     content: "";
-	position: absolute;
-	left: -5px;
-	width: 4px;
-	height: 20px;
-	background: #43b581;
+    position: absolute;
+    left: -5px;
+    width: 4px;
+    height: 20px;
+    background: #43b581;
 }
 
 .avatarSpeaking-1wJCNq::after {
     content: "";
-	position: absolute;
-	height: 20px;
-	left: -5px;
-	width: 100%;
-	background: linear-gradient(to right, #43b581 0%, transparent 35%);
-	opacity: 0.5;
-	z-index: -1;
+    position: absolute;
+    height: 20px;
+    left: -5px;
+    width: 100%;
+    background: linear-gradient(to right, #43b581 0%, transparent 35%);
+    opacity: 0.5;
+    z-index: -1;
 }
 
 /* channels column - voice chat bar */
