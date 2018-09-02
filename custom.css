@@ -303,3 +303,7 @@
 .bf-toolbar.bf-left .bf-arrow {
     opacity: 0.0;
 }
+
+.translate-button {
+    display: none;
+}
